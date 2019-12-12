@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sports Warehouse</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.css" rel="stylesheet">
+	<!-- Include bxSlider CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+</head>
+<body>
+
+<div id="wrapper">
+     <!-- HEADER -->
+	<header id="header">
+		<div class="top-header-fixed">
+			<div id="mobile_cart_container">
+
+			<button id="menu-toggle" class="hide btn-menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+			    <i class="fas fa-bars mr"></i><span class="">Menu</span>
+			</button>
+
+			<div id="mobile_cart">
+				<a href="#"><i class="fas fa-lock mr"></i>Login</a>
+				 <a href="#">
+				     <i class="fas fa-shopping-cart"></i>
+				     <span class="view_cart">View Cart</span>
+				     <span class="count_item">0 items</span>
+			     </a>
+			</div>
+			</div>
+			<nav id="mobile_main_menu">
+				<ul id="menu" class="show">
+					<li><a href="#"><i class="fas fa-lock mr"></i>Login</a></li>
+					<li><a href="#"><i class="far fa-circle mr"></i>Home</a></li>
+					<li><a href="#"><i class="far fa-circle mr"></i>About SW</a></li>
+					<li><a href="#"><i class="far fa-circle mr"></i>Contact Us</a></li>
+					<li><a href="#"><i class="far fa-circle mr"></i>View products</a></li>
+				</ul>
+			</nav>
+		</div>
+
+
+			<div id="logo_search_container">
+					<div id="logo">
+							<a href="#"><img src="images/logo/sports-warehouse-logo-600.png" alt="" class="center"></a>
+					</div>
+					<form role="search">
+						<div id="search_box">
+					  	   <input type="search" class="form-search" id="search_input" placeholder="Search products" aria-label="Search for...">
+					  	   </input>
+						   <button name="search" class="" type="search" width="30" height="30">
+						  		<i class="fas fa-search"></i>
+						   </button>
+						</div>
+					</form>
+			</div>
+
+			<nav id="mobile-sub-menu">
+				<ul>
+					<li><a href="#">Shoes<i class="fas fa-angle-right">        </i></a></li>
+					<li class="active"><a href="#">Helmets<i class="fas fa-angle-right">      </i></a></li>
+					<li><a href="#">Pants<i class="fas fa-angle-right">        </i></a></li>
+					<li><a href="#">Tops<i class="fas fa-angle-right">         </i></a></li>
+					<li><a href="#">Balls<i class="fas fa-angle-right">        </i></a></li>
+					<li><a href="#">Equipment<i class="fas fa-angle-right">    </i></a></li>
+					<li><a href="#">Training gear<i class="fas fa-angle-right"></i></a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<!-- MAIN CONTENT OR MAIN BODY PAGE-->
+	<div id="main-contents">
+
+        <!-- here is slider show -->
+        <div id="slid-show" class="loading">
+        	<!-- <div id="container-slideshow">	 -->
+				<ul class="bxslider">
+					<li>
+						<img src="images/img-sliders/1.png" alt="" width="" height="">
+						<div class="slide-info">
+							<div class="slider-text-info">
+								<h3>View our brand new range of <strong>Sports balls </strong></h3>
+								<button>Shop now</button>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="images/img-sliders/2.png" alt="" width="" height="">
+						<div class="slide-info">
+							<div class="slider-text-info">
+								<h3>View our brand new range of <strong>Sports balls </strong></h3>
+								<button>Shop now</button>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="images/img-sliders/3.png" alt="" width="" height="">
+						<div class="slide-info">
+							<div class="slider-text-info">
+								<h3>View our brand new range of <strong>Sports balls </strong></h3>
+								<button>Shop now</button>
+							</div>
+						</div>
+					</li>
+				</ul>
+        <!-- </div> end conainer-slideshow -->
+        	<!-- <div id="tailer-slid-show"></div> -->
+        </div>
+		<div class="heading_bg">
+	     	<h2 id="featured-products">Featured products</h2>
+		</div>
+	     <div id="products-contents">
+
+			<div class="card">
+				<a href="#">
+					<div class="img-card-contanier">
+						<img src="images/products/soccer-ball.png" alt="soccer-ball" width="" height="">
+					</div>
+					<p class="box-price">
+						<span class="price">$34.95</span>
+		        		<span class="was-price">was $46.00</span>
+	        		</p>
+					<p class="info-product">adidas Euro16 Top Soccer Ball</p>
+				</a>
+			</div>
+			<div class="card">
+				<a href="#">
+					<div class="img-card-contanier">
+						<img src="images/products/skate-helmet.png" alt="skate-helmet" width="" height="">
+					</div>
+					<p class="box-price">
+						<span class="price">$70.00</span>
+		        		<span class="was-price"></span>
+					</p>
+					<p class="info-product">Pro-tec Classic Skate Helmet</p>
+				</a>
+			</div>
+			<div class="card hover-product">
+				<a href="#">
+					<div class="img-card-contanier">
+						<img src="images/products/water-bottle.png" alt="water-bottle" width="" height="">
+					</div>
+					<p class="box-price">
+						<span class="price">$15.00</span>
+		        		<span class="was-price">was $17.50</span>
+		        	</p>
+					<p class="info-product">Nike Sport 600ml Water Bottle</p>
+				</a>
+			</div>
+			<div class="card">
+				<a href="#">
+					<div class="img-card-contanier">
+						<img src="images/products/boxing-gloves.png" alt="boxing-gloves" width="" height="">
+					</div>
+					<p class="box-price">
+						<span class="price">$79.95</span>
+		        		<span class="was-price"></span>
+		        	</p>
+					<p class="info-product">Sting ArmaPlus Boxing Gloves</p>
+				</a>
+			</div>
+			<div class="card">
+				<a href="#">
+					<div class="img-card-contanier">
+						<img src="images/products/football-boots.png" alt="football-boots" width="" height="">
+					</div>
+					<p class="box-price">
+						<span class="price">$160.00</span>
+		        		<span class="was-price"></span>
+		        	</p>
+					<p class="info-product">Asics Gel Lethal Tigreor 8 IT Men’s</p>
+				</a>
+			</div>
+
+	     </div>
+
+	     <div class="heading_bg">
+	     		<h2 class="ourbrand">Our brands and partnerships</h2>
+	 	</div>
+
+	     <div id="ourbrand_container">
+	     	<div class="ourbrand_text">
+	     		<p>These are some of our top brands and partnerships.</p>
+	     		<a href="">The best of the best is here.</a>
+	     	</div>
+	     	<div class="barnd_logo">
+	     		<ul>
+	     			<li>
+	     				<a href="">
+	     					<img src="images/logo/logo_nike.png" alt="logo-nike">
+	     				</a>
+	     			</li><li>
+	     				<a href="">
+	     					<img src="images/logo/logo_adidas.png" alt="logo-adidas">
+	     				</a>
+	     			</li><li>
+	     				<a href="">
+	     					<img src="images/logo/logo_skins.png" alt="logo-skins">
+	     				</a>
+	     			</li><li>
+	     				<a href="">
+	     					<img src="images/logo/logo_asics.png" alt="logo-asics">
+	     				</a>
+	     			</li><li>
+	     				<a href="">
+	     					<img src="images/logo/logo_newbalance.png" alt="logo-newbalance">
+	     				</a>
+	     			</li><li>
+	     				<a href="">
+	     					<img src="images/logo/logo_wilson.png" alt="logo-wilson">
+	     				</a>
+	     			</li>
+	     		</ul>
+	     	</div>
+	     </div>
+	</div><!--  END MAIN CONTENT-->
+
+</div> <!-- THIS IS CLOSE WRAPPER -->
+
+<!-- FOOTER -->
+<footer id="footer">
+    <div id="boutton-footer-container">
+        <div class="nav_footer_container">
+		     <div class="footer_bg">
+		     	<h3>Site navigation</h3>
+		     	<ul>
+		     		<li>Home</li>
+		     		<li>About SW</li>
+		     		<li>Contact Us</li>
+		     		<li>View Products</li>
+		     		<li>Privacy policy</li>
+		     	</ul>
+		     </div>
+		     <div class="footer_bg">
+		     	<h3>Product categories</h3>
+		     	<ul>
+		     		<li>Shoes</li>
+		     		<li>Helmets</li>
+		     		<li>Pants</li>
+		     		<li>Tops</li>
+		     		<li>Balls</li>
+		     		<li>Equipment</li>
+		     		<li>Training Gear</li>
+		     	</ul>
+		     </div>
+		     <div class="footer_bg">
+				<h3>Contact Sports Warehouse</h3>
+				<ul>
+					<li><a href=""><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+					<li><a href=""><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+					<li><a href=""><i class="fab fa-telegram-plane"></i><span>Other</span></a></li>
+				</ul>
+		    </div>
+	    </div>
+    </div>
+   <div class="copyright-info">
+        <span>&copy; Copyright 2020 Sports Warehouse.</span>
+        <span>All rights reserved.</span>
+        <span>Website made by Awesomesauce Design.</span>
+   </div>
+</footer>
+
+
+<!-- Include jQuery library -->
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+	  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+<!-- Include jQuery plugins AFTER including the jQuery library -->
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script>
+
+		// Using jQuery - wait until the page has finished loading before running the JS code.
+		$(document).ready(function(){
+
+			// Slideshow is hidden by default - this will unhide it when JS is ready and available
+			//$('#slideshow').removeAttr('hidden');
+			$('#slid-show').removeClass('loading');
+
+			// Activate and customise the bxSlider slideshow
+			$('.bxslider').bxSlider({
+				mode: 'horizontal', // 'horizontal', 'vertical', 'fade'
+				captions: false,
+				pager: true,
+				auto: true,
+				pause: 3000,		// how long each slide stays visible for = 3000ms = 3s
+				speed: 500,			// transition speed = 500ms = 0.5s
+				autoHover: true		// pause slideshow on mouse hover
+
+			});
+
+		});
+
+	</script>
+
+
+
+<!-- <script type="text/javascript"> -->
+<script type="text/javascript">
+
+		// Wait for the document to load before running our JS code
+		document.addEventListener("DOMContentLoaded", () => {
+
+		// Get the toggle button and the menu
+		let toggle = document.getElementById("menu-toggle");
+		let menu = document.getElementById("menu");
+
+		// Make sure menu and toggle button exist
+		if (toggle && menu) {
+
+		// Remove the "show" class from the menu (now that JS is functional)
+		menu.classList.remove("show");
+
+		// Add click event listener to toggle button
+		toggle.addEventListener("click", (event) => {
+
+		// Stop hyperlink navigation
+		event.preventDefault();
+
+		// Toggle (add/remove) CSS class on the menu
+		menu.classList.toggle("show");
+
+		});
+
+		}
+
+});
+
+</script>
+
+</body>
+</html>
